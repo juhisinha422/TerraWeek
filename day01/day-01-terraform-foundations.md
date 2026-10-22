@@ -15,7 +15,7 @@ Terraform is an open-source IaC software tool created by HashiCorp. It enables u
 - **Ansible:** A procedural configuration management tool designed to configure software inside existing servers. Terraform is a declarative provisioning tool designed to build the servers themselves.
 
 ## Task 2: Install Terraform
-- **Installation:** Used Homebrew on macOS to install the latest version (`brew tap hashicorp/tap` and `brew install hashicorp/tap/terraform`).
+- **Installation:** Installation: Downloaded and installed the latest version of Terraform for Windows from the official HashiCorp website or using Windows Package Manager (winget).
 - **Verification:** Successfully ran `terraform -version` (Output: `v1.15.x`).
 - **Editor Setup:** Installed the official "HashiCorp Terraform" extension in VS Code for HCL syntax highlighting and auto-completion.
 
@@ -44,7 +44,7 @@ terraform {
 
 resource "local_file" "greeting" {
   filename = "greeting.txt"
-  content  = "Hello Rashid Bhai! Welcome to TerraWeek Day 01."
+  content  = "Hello Miss Sinha! Welcome to TerraWeek Day 01."
 }
 ```
 
