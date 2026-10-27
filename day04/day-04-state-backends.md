@@ -58,7 +58,7 @@ Manually provisioned an AWS S3 bucket and adopted it into the Terraform state ut
 ```hcl
 import {
   to = aws_s3_bucket.imported
-  id = "terraweek-import-rashid-2026"
+  id = "terraweek-import-juhi-2026"
 }
 ```
 Executing `terraform plan -generate-config-out=generated.tf` successfully queried the AWS API and automatically scaffolded the HCL resource code, seamlessly bridging existing cloud assets into IaC management.
